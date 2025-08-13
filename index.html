@@ -2,27 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StudyWell</title>
-    <link rel="shortcut icon" href="./Images/StudySyn.svg" type="image/x-icon"/>
+    <link
+      rel="shortcut icon"
+      href="./Images/StudyWell.svg"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Header section (navSecion) -->
+    <!-- Header Section (navSecion) -->
     <div class="header">
-      <header class="header-content">
+      <header class="header-content" id="home">
         <!-- 1st  -->
         <a href="#logo" class="logo">
-          <img src="./Images/StudySyn.svg" alt="logoImage" class="logo-icon" />
+          <img src="./Images/StudyWell.svg" alt="logoImage" class="logo-icon" />
           <span class="logo-text">StudyWell</span>
         </a>
         <!-- 2nd -->
         <nav class="nav">
           <a href="#home" class="nav-link">Home</a>
           <a href="#features" class="nav-link">Features</a>
-          <a href="#pricing" class="nav-link">Pricing</a>
-          <a href="#blog" class="nav-link">Blog</a>
+          <a href="#testimonial" class="nav-link">Testimonials</a>
           <a href="#about" class="nav-link">About</a>
         </nav>
         <!-- 3rd -->
@@ -32,8 +38,10 @@
       </header>
     </div>
 
+    <!-- about Section -->
+
     <!-- content Section -->
-    <div class="content">
+    <div class="content" id="content">
       <section class="main-section">
         <!-- left Side -->
         <div class="content-left">
@@ -65,7 +73,7 @@
     </div>
 
     <!-- company logo -->
-    <div class="company-container">
+    <div class="company-container" id="companylogo">
       <h2 class="company-title">Trusted by the best</h2>
 
       <div class="company-grid">
@@ -92,7 +100,7 @@
     </div>
 
     <!-- Feature Section -->
-    <div class="feature-container">
+    <div class="feature-container" id="features">
       <div class="feature-content">
         <div class="main-info">
           <h2 class="main-title">Our competitive advantage</h2>
@@ -192,8 +200,8 @@
       </div>
     </div>
 
-    <!-- testimoninal section -->
-    <div class="testimoninal-container">
+    <!-- testimoninal Section -->
+    <div class="testimoninal-container" id="testimonial">
       <div class="testimonial-content">
         <h2 class="testimonial-title">What Others Say About Us</h2>
 
@@ -255,8 +263,8 @@
       </div>
     </div>
 
-    <!--newsletter section -->
-    <div class="newsletter-container">
+    <!--newsletter Section -->
+    <div class="newsletter-container" id="contact">
       <div class="newsletter-content">
         <!-- left part -->
         <div class="news-left">
@@ -270,9 +278,12 @@
             <p class="news-desc">Sign up for our newsletter</p>
           </div>
 
-          <form class="news-form">
-            <input class="news-email" placeholder="Email" />
-            <button class="news-send-button">Send</button>
+          <form action="https://api.web3forms.com/submit" method="POST" class="news-form">
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" value="64c9ab25-04e4-4a55-b884-809052a9a080" />
+
+            <input type="email" name="email" class="news-email" placeholder="Email" required />
+            <button type="submit" class="news-send-button">Send</button>
           </form>
 
           <div class="privacy-policy">
@@ -286,12 +297,12 @@
     </div>
 
     <!-- footer Section -->
-    <div class="footer-container">
+    <div class="footer-container" id="footer">
       <footer class="footer">
         <div class="footer-left">
           <div class="comp-logo">
             <a href="#" class="logo-link">
-              <img class="logo-svg" src="./Images/StudySyn.svg" />
+              <img class="logo-svg" src="./Images/StudyWell.svg" />
               StudyWell
             </a>
             <p class="filler-text">Seamless Learning for Brighter Futures.</p>
@@ -339,7 +350,7 @@
             </ul>
           </div>
 
-          <!-- Column-2 -->
+          <!-- column-2 -->
           <div class="footer-grid-column">
             <div class="footer-grid-heading">Company</div>
             <ul class="footer-link-lists">
@@ -347,34 +358,26 @@
                 <a href="#overview" class="footer-link">About</a>
               </li>
 
-              <li>
-                <a href="#overview" class="footer-link">Investor Relations</a>
-              </li>
-
-              <li>
+               <li>
                 <a href="#overview" class="footer-link">Jobs</a>
-              </li>
-
-              <li>
-                <a href="#overview" class="footer-link">Press</a>
               </li>
 
               <li>
                 <a href="#overview" class="footer-link">Blog</a>
               </li>
+
+              <li>
+                <a href="#overview" class="footer-link">Press</a>
+              </li>
             </ul>
           </div>
 
-          <!-- Column-3 -->
+          <!-- column-3 -->
           <div class="footer-grid-column">
             <div class="footer-grid-heading">Support</div>
             <ul class="footer-link-lists">
               <li>
                 <a href="#overview" class="footer-link">Contact</a>
-              </li>
-
-              <li>
-                <a href="#overview" class="footer-link">Documentation</a>
               </li>
 
               <li>
@@ -384,19 +387,27 @@
               <li>
                 <a href="#overview" class="footer-link">FAQ</a>
               </li>
+
+               <li>
+                <a href="#overview" class="footer-link">Report a Bug</a>
+              </li>
             </ul>
           </div>
 
-          <!-- Column-4 -->
+          <!-- column-4 -->
           <div class="footer-grid-column">
             <div class="footer-grid-heading">Legal</div>
             <ul class="footer-link-lists">
-              <li>
-                <a href="#overview" class="footer-link">Terms of Service</a>
+               <li>
+                <a href="#overview" class="footer-link">Privacy Policy</a>
+              </li>
+
+               <li>
+                <a href="#overview" class="footer-link">Refund Policy</a>
               </li>
 
               <li>
-                <a href="#overview" class="footer-link">Privacy Policy</a>
+                <a href="#overview" class="footer-link">Terms of Service</a>
               </li>
 
               <li>
@@ -408,8 +419,9 @@
       </footer>
 
       <div class="footer-copyright">
-        © 2021 - Present StudyWell. All rights reserved.
+        © 2023 - Present StudyWell. All rights reserved.
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
