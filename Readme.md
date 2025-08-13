@@ -5,10 +5,8 @@ Hi, I’m Ankit Tripathi, a passionate and self-taught Front-End Developer skill
 - HTML
 - CSS
 - Javascript
-- React
-- React-Hook-Form
-- React-toastify
 - Web3Forms
+- Remix Icon
 
 ## Features 🎉
 - **Responsive Design** 📱 — Optimized for mobile, tablet, and desktop.
@@ -42,30 +40,9 @@ Hi, I’m Ankit Tripathi, a passionate and self-taught Front-End Developer skill
 | ![Contact](./public/contactPage.PNG) |
 
 
-## 📦 Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or above)
-- npm or yarn
-
-## 🚀 How to Run the Project
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/ankittripathe/PortFolio-Website.git
-cd PortFolio-Website
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm run dev
-```
-
 ## 🔗 Links
-- 🌐 **Live Demo**: [https://lnkd.in/drtsgfVk](https://ankittripathi.vercel.app/)
-- 📁 **GitHub Repo**: [https://lnkd.in/g-m6hC2Y](https://github.com/ankittripathe/PortFolio-Website)
+- 🌐 **Live Demo**: [https://lnkd.in/drtsgfVk](https://studywell-webapp.netlify.app/)
+- 📁 **GitHub Repo**: [https://lnkd.in/g-m6hC2Y](https://github.com/ankittripathe/StudyWell)
 
 ## 🤝 Let's Connect
 If you're passionate about frontend development, UI/UX, or React-based web apps — let’s connect and collaborate!
