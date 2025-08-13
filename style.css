@@ -26,6 +26,17 @@ body {
   background-color: var(--background-color);
   padding: 0.5rem;
   scroll-behavior: smooth;
+  padding-top: 40px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  padding-top: 10px;
 }
 
 /* header Section */
@@ -416,7 +427,6 @@ header i {
   font-weight: 600;
 }
 
-
 /* Media Quaries */
 @media (min-width: 500px) and (max-width: 768px) {
   .company-container {
@@ -469,7 +479,6 @@ header i {
     row-gap: 3.5rem;
   }
 }
-
 
 /* feature section */
 .feature-container {
@@ -617,7 +626,6 @@ header i {
   }
 }
 
-
 /* testimoninal section */
 .testimoninal-container {
   background-color: var(--background-color);
@@ -761,7 +769,6 @@ header i {
     font-size: 0.7rem;
   }
 }
-
 
 /* newsLetter */
 .newsletter-container {
@@ -950,7 +957,6 @@ header i {
   }
 }
 
-
 /* footer Section */
 .footer-container {
   background-color: var(--background-color);
@@ -1041,7 +1047,6 @@ ul {
   margin-top: 1.9rem;
 }
 
-
 /* Media Quaries */
 @media (min-width: 580px) and (max-width: 768px) {
   .footer-container {
@@ -1076,7 +1081,6 @@ ul {
   .filler-text {
     font-size: 1.5rem;
     margin-top: 0.8rem;
-
   }
 
   .social-icon {
@@ -1111,9 +1115,7 @@ ul {
   }
 }
 
-
-
-@media(max-width: 580px) {
+@media (max-width: 580px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -1156,7 +1158,7 @@ ul {
   .footer-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0  auto;
+    margin: 0 auto;
     margin-top: 1.5rem;
     row-gap: 1.7rem;
   }
@@ -1178,4 +1180,3 @@ ul {
     font-size: 0.75rem;
   }
 }
-

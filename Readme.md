@@ -23,29 +23,28 @@ Hi, I’m Ankit Tripathi, a passionate and self-taught Front-End Developer skill
 
 ## 📸 Screenshots
 
-| Home page | Login Page |
-|-----------|------------|
-| ![Home](./src/assets/screeshots/homePage.PNG) | ![Login](./src/assets/screeshots/loginPage.PNG) |
+| Home page |
+|-----------|
+| ![Home](./Images/homePage.PNG) |
 
-| About page | Project Page |
-|------------|--------------|
-| ![About](./src/assets/screeshots/aboutPage.PNG) | ![Project](./src/assets/screeshots/projectPage.PNG) |
+ Features Page |
+|--------------|
+| ![Features](./Images/features.PNG) |
 
+| Contact page |
+|--------------|
+| ![Contact](./Images/contact.PNG) |
 
 ---
-
 ## 🚀 How to Run the Project
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/ankittripathe/RealEstate-App.git
-cd RealEstate-App
+git clone https://github.com/ankittripathe/StudyWell.git
+cd StudyWell
 
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm run dev
+# 2. Run this Project
+right click open with live server
 ```
 
 ## 🔗 Links
