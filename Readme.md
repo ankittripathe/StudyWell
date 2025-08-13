@@ -1,5 +1,5 @@
-# 🚀 Ankit's - Portfolio Website
-Hi, I’m Ankit Tripathi, a passionate and self-taught Front-End Developer skilled in building modern, responsive, and user-focused web applications. I specialize in technologies like React.js, JavaScript, Tailwind CSS, SCSS, Framer Motion, Material UI, HTML5, CSS3 & Git/GitHub
+# 🚀 StudyWell - Smart Learning Platform
+StudyWell is an intuitive and modern smart learning platform designed to make education engaging, personalized, and accessible. It offers interactive lessons, progress tracking to help learners study smarter, not harder.
 
 ## 🛠 Technologies Used
 - HTML
@@ -7,18 +7,6 @@ Hi, I’m Ankit Tripathi, a passionate and self-taught Front-End Developer skill
 - Javascript
 - Web3Forms
 - Remix Icon
-
-## Features 🎉
-- **Responsive Design** 📱 — Optimized for mobile, tablet, and desktop.
-- **Smooth Animations** 🎨 — Framer Motion transitions for sections and elements.
-- **Scroll-to-Top Button** ⬆️ — Quick navigation back to the top.
-- **Hero Section** 🏠 — Professional title, intro, and CTA buttons.
-- **About Section** 📝 — Overview of skills, experience, and goals.
-- **Projects Section** 💻 — Showcases key work with descriptions and links.
-- **Contact Form (Web3Forms)** 📧 — Direct email submissions without backend.
-- **Toast Notifications** 🔔 — Feedback for form submissions.
-- **Footer** 📜 — Copyright and quick links.
-- **React Router Navigation** 🔗 — Smooth page routing without reload.
 
 
 ## 📸 Screenshots
