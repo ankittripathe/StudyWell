@@ -78,3 +78,4 @@ If you're passionate about frontend development, UI/UX, or React-based web apps 
 
 
 ## 🌐 Check Out My Portfolio
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ankittripathi.vercel.app/)
