@@ -36,8 +36,8 @@ right click open with live server
 ```
 
 ## 🔗 Links
-- 🌐 **Live Demo**: [https://lnkd.in/drtsgfVk](https://studywell-webapp.netlify.app/)
-- 📁 **GitHub Repo**: [https://lnkd.in/g-m6hC2Y](https://github.com/ankittripathe/StudyWell)
+- 🌐 **Live Demo**: [Live Demo](https://studywell-webapp.netlify.app/)
+- 📁 **GitHub Repo**: [Source Code](https://github.com/ankittripathe/StudyWell)
 
 ## 🤝 Let's Connect
 If you're passionate about frontend development, UI/UX, or React-based web apps — let’s connect and collaborate!
